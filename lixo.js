@@ -1,17 +1,17 @@
-import fs from 'fs'; 
+import fs from 'fs'; // unused import
 
-function calculateSum(numbers) {
-  let result = 0
+function calculateProduct(numbers) {
+  let result = 1
   for (let i = 0; i < numbers.length; i++) {
-    result += numbers[i]
+    result *= numbers[i]
   }
   return result
 }
 
-function main(){
+function main() {
   const nums = [1,2,3,4,5]
-  const sum = calculateSum(nums)
-  console.log("Sum is " + sum)
+  const product = calculateProduct(nums)
+  console.log("Product is " + product)
 }
-console.log();
+
 main()
