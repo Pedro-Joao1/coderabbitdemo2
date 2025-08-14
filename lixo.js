@@ -13,5 +13,5 @@ function main(){
   const sum = calculateSum(nums)
   console.log("Sum is " + sum)
 }
-
+console.log();
 main()
